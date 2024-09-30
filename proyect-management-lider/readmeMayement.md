@@ -69,8 +69,22 @@ Elegí revertir el segundo commit: 0ffc195 "nueva forma de pago averiguaciones".
 
 Deshacer dicho commit usando:git revert 0ffc195 Se deja captura gitRrevert.png, se guarda un commit de ese revert.
 
+## Problema 9: Actualizar tu repositorio local para asegurarte tener la versión más reciente de la rama principal del código desde el repositorio remoto para evitar conflictos y trabajar con la información actualizada. 
+git checkout main
+git pull origin main
 
 
+## Problema 10: Realizar 2 modificaciones. Compartir tus cambios. Ejecutar un comando git para asegurarte de que tus modificaciones estén disponibles para el equipo en el repositorio compartido. 
+modifique el archivo licencias y precios - comandos:
+git status 
+git add .
+git commit -m "modificacion en archivo licenciasYPrecios"
+
+
+modifique el archivo revisionDoc - comandos:
+git status 
+git add .
+git commit -m "modificacion en archivo revisionDoc"
 
 
 
